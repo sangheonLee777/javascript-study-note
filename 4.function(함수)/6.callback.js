@@ -13,5 +13,7 @@ function calculator(a, b, action) {
   return result;
 }
 
+
+
 calculator(1, 2, add);
 

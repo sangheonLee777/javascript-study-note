@@ -18,7 +18,8 @@ class Fruit {
     this.name = name;
     this.emoji = emoji;
   }
-  display = () => {
+  // 함수는 생성자 밖에서 함수이름만 작성해서 정의한다. function 작성 X
+  display = () => {              
     console.log(`${this.name}:${this.emoji}`);
   };
 }
@@ -27,3 +28,5 @@ const apple = new Fruit("apple", "🍎")
 console.log(apple);
 // orange 는 Fruit이라는 클래스의 인스턴스이다.
 const oragne = new Fruit("orange","🍊")
+console.log((oragne));
+apple.display()

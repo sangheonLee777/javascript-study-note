@@ -30,3 +30,6 @@ console.log(apple);
 const oragne = new Fruit("orange","🍊")
 console.log((oragne));
 apple.display()
+
+
+
